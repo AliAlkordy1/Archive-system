@@ -96,7 +96,7 @@ export default function CreateUser() {
         />
 
         {passwordErrorMessage && <p className="error">{passwordErrorMessage}</p>}
-        <label htmlFor="type">type</label>
+        <label htmlFor="type">Type</label>
         <select name="userType" value={formData.userType} onChange={handleChange}>
           <option value="" disabled>
             Select the type of user

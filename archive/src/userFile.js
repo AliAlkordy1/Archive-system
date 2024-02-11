@@ -61,6 +61,7 @@ export default function Files({ getUserRole, getUserCollege }) {
         <thead>
           <tr>
             <th>File ID</th>
+            <th>bookNumber</th>
             <th>From</th>
             <th>File</th>
             <th>Type</th>
@@ -75,6 +76,7 @@ export default function Files({ getUserRole, getUserCollege }) {
           {filteredFileData.map((file) => (
             <tr key={file.id}>
               <td>{file.id}</td>
+              <td>{file.bookNumber}</td>
               <td>{file.from}</td>
               <td>
                 {/* Create a link to the file using React Router's Link component */}

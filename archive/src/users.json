@@ -71,7 +71,6 @@
       "password": "Secure123!",
       "userRole": "صادرة",
       "college": "computer science"
-      
     },
     {
       "id": "10",
@@ -80,7 +79,15 @@
       "password": "Secure123!",
       "userRole": "صادرة",
       "college": "computer science"
-      
+    },
+    {
+      "id": "omor40ins",
+      "name": "jasem",
+      "email": "cs.20.140@student.uotechnology.edu.iq",
+      "password": "Gg1122443388",
+      "userType": "صادرة",
+      "department": "Civil Engineering",
+      "userRole": "user"
     }
   ]
 }

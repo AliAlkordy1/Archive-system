@@ -20,7 +20,8 @@ export default function MyDepartment() {
       email: user.email,
       college: user.college,
       branch: user.branch,
-      userRole: user.userRole, // Added the "type" field
+      userRole: user.userRole,
+      bookNumber:user.bookNumber, // Added the "type" field
     }));
 
     // Filter users based on the same college and userRole
@@ -81,7 +82,8 @@ export default function MyDepartment() {
               <th>Name</th>
               <th>Email</th>
               <th>college</th>
-              <th>Type</th> {/* Added the "Type" column header */}
+              <th>Type</th>
+               {/* Added the "Type" column header */}
             </tr>
           </thead>
           <tbody>
@@ -93,7 +95,8 @@ export default function MyDepartment() {
                 <td>{user.name}</td>
                 <td>{user.email}</td>
                 <td>{user.college}</td>
-                <td>{user.userRole}</td> {/* Added the "type" field */}
+                <td>{user.userRole}</td>
+                 {/* Added the "type" field */}
               </tr>
             ))}
           </tbody>
